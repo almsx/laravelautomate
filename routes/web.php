@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/happy', function() {
+    return 'Feliz cumpleaños GNU Linux Latino!';
+});
